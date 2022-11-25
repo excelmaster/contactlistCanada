@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Poppins',  sans-serif;
+    line-height: 1.6;
+    background-color: black;
+}
+
+.main-container{
+    margin: 0px auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.data-input, .contact-zone{    
+    padding: 20px 0;
+    margin: 30px 0;    
+}
+
+.data-input > h1, .contact-zone > h3 {    
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;   
+    color:white; 
+}
+
+.data-input{
+    color:white ;
+    text-align: center;    
+}
+
+.input-control{
+    background-color: rgb(71, 54, 54);
+    color: rgb(170, 160, 160) !important;
+}
+
+.contact-item{
+    color: white;
+    background-color: rgb(40, 30, 30);
+    border-radius: 5px;
+    width: 33%;   
+    margin-top: 10px;
+}
+
+button{
+    background-color: green;
+    color   : white;
+    font-size: 15px; 
+}
+
+.contact-zone{
+    padding: 5px;
+    margin: 5px;
+}
